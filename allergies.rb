@@ -4,6 +4,7 @@ class Allergy
 
   def initialize
     @allergy_hashy = {
+      '' => 0,
       'eggs' => 1,
       'peanuts' => 2,
       'shellfish' => 4,
@@ -12,7 +13,6 @@ class Allergy
       'chocalate' => 32,
       'pollen' => 64,
       'cats' => 128,
-      '' => 0
     }
   end
   
