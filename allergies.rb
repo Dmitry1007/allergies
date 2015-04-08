@@ -22,7 +22,6 @@ class Allergy
 
   def allergen(score)
     check_these = @allergy_hashy.values.combination(2).detect { |a,b| a + b == score }
-
     spit_out_words = check_these.map { |num| @allergy_hashy.invert[num] }
   end
 
