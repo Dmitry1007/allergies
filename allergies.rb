@@ -25,9 +25,3 @@ class Allergy
     allergy_report
   end
 end
-
-
-
-
-
-
